@@ -15,7 +15,6 @@ public class Cat {
     this.isFemale = isFemale;
   }
 
-
 public String getStringAttributes(String op) {
   switch (op) {
     case "#name":
@@ -29,15 +28,10 @@ public String getStringAttributes(String op) {
 
 public String getAge() {
   if (isFemale) {
-
     return checkEscalationLevel();
-
-
-
   } else {
     return String.valueOf(age);
   }
-
   }
 private String checkEscalationLevel() {
 
@@ -53,10 +47,6 @@ counter++;
     default:
         return "1'!?&&%!";
   }
-
-
-
 }
-
 }
   
